@@ -1,0 +1,27 @@
+<ion-view view-title="Perfil">
+  <ion-content>
+    <div class="list card" ng-class="
+    	{
+    		'iniciante' : vm.usuario.classificacao == 'Iniciante', 
+			'estudante' : vm.usuario.classificacao == 'Estudante',
+			'esforcado' : vm.usuario.classificacao == 'Esforcado',
+			'professor' : vm.usuario.classificacao == 'Professor',
+			'mestre-dos-magos' : vm.usuario.classificacao == 'Mestre dos Magos' 
+    	}">
+        <div class="item item-avatar">
+			<img ng-src="{{vm.usuario.imagem}}">
+			<h2>{{vm.usuario.nome}}</h2>
+			<p style="color: white">{{vm.usuario.classificacao}}</p>
+		</div>
+
+	  	<div class="item item-body">
+			<h2> Sua pontuação é de: </h2>
+			<div class="row">
+				<div class="col">
+					<button class="button button-full button-positive icon-left ion-ios-lightbulb-outline">{{vm.usuario.pontuacao}}</button>
+				</div>					
+			</div>
+		</div>        
+    </div>  
+  </ion-content>
+</ion-view>

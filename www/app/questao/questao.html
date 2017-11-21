@@ -1,0 +1,120 @@
+<ion-view cache-view="false">
+    <ion-nav-title>{{vm.questionario.titulo}} - {{vm.questionario.tempo}} </ion-nav-title>
+    <ion-content>
+        <div class="descricao">
+            Sua Pontuação (Até {{::vm.questionario.pontuacaoTotal}} pontos)
+        </div>
+        <div class="pontuacao">
+            {{vm.pontuacaoCorrente}}
+        </div>
+
+        <div class="card card-questao">
+            <div class="item item-text-wrap">
+                <h2>{{vm.questaoCorrente.codigo}}) {{vm.questaoCorrente.questao}}</h2>
+                <div>
+                    <ion-radio ng-repeat="op in vm.questaoCorrente.opcoes" ng-model="vm.questaoCorrente.opcaoSelecionada" ng-value="'{{op.letra}}'"
+                    ng-disabled="vm.questaoCorrente.respondida || vm.questaoCorrente.pulada">
+                        {{op.letra}}) {{op.descricao}}
+                    </ion-radio>
+                </div>
+            </div>
+        </div>
+
+        <div class="row info" ng-if="vm.multiplicador >= 3 && !vm.questaoCorrente.respondida">
+            <div class="col txt-verde">
+               Multiplicador X {{(vm.multiplicador - 1)}}
+            </div>
+        </div>
+        <div class="row info" ng-if="vm.questaoCorrente.respondida && vm.questaoCorrente.multiplicador">
+            <div class="col txt-verde">
+               Multiplicador X {{vm.questaoCorrente.multiplicador}}
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row info">
+            <div class="col txt-verde">
+                <p>Acertou?<br /><b>+{{vm.questaoCorrente.pontuacao}}</b></p>
+            </div>
+            <div class="col txt-vermelho">
+                <p>Errou?<br /><b>-{{vm.questaoCorrente.pontuacao * 2}}</b></p>
+            </div>
+        </div>
+
+        <div class="card card-opcoes">
+            <div class="item item-text-wrap">
+                <h2>Você Pode:</h2>
+
+                <div class="row">
+                    <div class="col">
+                        <button ng-click="vm.acionarEliminar()" ng-disabled="vm.questionario.eliminarAcionado" class="button button-full button-light icon-left ion-pinpoint">Eliminar</button>
+                    </div>
+                    <div class="col">
+                        <button ng-click="vm.acionarPular()" ng-disabled="vm.questionario.pularAcionado" class="button button-full button-light icon-left ion-forward">
+                            Pular
+                        </button>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <button ng-click="vm.acionarDobrar()" ng-disabled="vm.questionario.dobrarAcionado" class="button button-full button-light icon-left ion-android-happy">Dobrar!</button>
+                    </div>
+                    <div class="col">
+                        <button ng-click="vm.acionarDica()" ng-disabled="vm.questionario.dicaAcionada" class="button button-full button-light icon-left ion-help-circled">Dica</button>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <button ng-click="vm.acionarUmMinuto()" ng-disabled="vm.questionario.umMinutoAcionado" class="button button-full button-light icon-left ion-clock">Só 1 minuto</button>
+                    </div>
+                    <div class="col">
+                        <button ng-click="vm.acionarMultiplicador()" ng-disabled="vm.questionario.multiplicadorAcionado" class="button button-full button-light icon-left ion-close">Multiplicar</button>
+                    </div>
+                </div>  
+                <div class="row">
+                    <div class="col" ng-if="vm.mostrarRecursoFinal">
+                        <button ng-click="vm.acionarRecursoFinal()" ng-disabled="vm.questionario.recursoFinalAcionado" class="button button-full button-light icon-left ion-speedometer">Recurso Final!</button>
+                    </div>
+                </div>        
+            </div>
+        </div>
+
+        <div class="card">
+            <div ng-if="vm.questaoCorrente.respondida && vm.questaoCorrente.acertou" class="item item-text-wrap balanced-bg" style="color:white">
+                <i class="icon ion-checkmark-circled"></i> Você acertou!
+            </div>
+            <div ng-if="vm.questaoCorrente.respondida && !vm.questaoCorrente.acertou" class="item item-text-wrap assertive-bg" style="color:white">
+                <i class="icon ion-close-circled"></i> Você errou!
+            </div>
+            <div ng-if="vm.questaoCorrente.pulada" class="item item-text-wrap energized-bg" style="color:white">
+                <i class="icon ion-shuffle"></i> Você pulou!
+            </div>
+        </div>
+
+        <div class="card" ng-if="vm.questaoCorrente.mostrarDica">
+            <div class="item item-text-wrap royal-bg" style="color:white">
+                <i class="icon ion-alert"></i> DICA: {{::vm.questaoCorrente.dica}}
+            </div>
+        </div>
+
+        <div class="item item-divider">
+            <div class="row">
+                <div class="col">
+                    <button ng-click="vm.irParaAnterior()" ng-disabled="vm.indice == 0" class="button button-full button-light icon ion-arrow-left-a" ></button>
+                </div>
+                <div class="col" ng-if="!vm.questionario.finalizado">
+                    <button ng-click="vm.responder()" ng-disabled="!vm.questaoCorrente.opcaoSelecionada || vm.questaoCorrente.respondida || vm.questaoCorrente.pulada" class="button button-full button-light icon ion-checkmark-circled"></button>
+                </div>
+                <div ng-if="vm.questionario.finalizado" class="col">
+                    <button ng-click="vm.finalizar()" class="button button-full button-light">Finalizar</button>
+                </div>
+                <div class="col">
+                    <button ng-click="vm.irParaProxima()" ng-disabled="(vm.indice+1) >= vm.quantidadeQuestoes || (!vm.questaoCorrente.respondida && !vm.questaoCorrente.pulada)" class="button button-full button-light icon ion-arrow-right-a"></button>
+                </div>
+            </div>
+        </div> 
+    </ion-content>
+</ion-view>

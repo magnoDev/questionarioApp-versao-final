@@ -1,0 +1,342 @@
+[
+	{
+		"codigo" : 1,
+		"codigoQuestionario" : 1,
+		"questao" : "Qual é a capital do Brasil?",
+		"pontuacao" : 25,
+		"resposta" : "C",
+		"dica" : "Não começa com C e nem daí em diante.",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Curitiba"},
+			{ "letra" : "B", "descricao" : "Goiás"},
+			{ "letra" : "C", "descricao" : "Brasília"},
+			{ "letra" : "D", "descricao" : "Maceió"},
+			{ "letra" : "E", "descricao" : "São Paulo"}
+		]
+	},
+	{
+		"codigo" : 2,
+		"codigoQuestionario" : 1,
+		"questao" : "Qual estado abaixo não faz parte da região sudeste do Brasil?",
+		"pontuacao" : 25,
+		"resposta" : "B",
+		"dica" : "Bem que poderia ser o do sul, mas não é.",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "São Paulo"},
+			{ "letra" : "B", "descricao" : "Mato Grosso"},
+			{ "letra" : "C", "descricao" : "Rio de Janeiro"},
+			{ "letra" : "D", "descricao" : "Espírito Santo"},
+			{ "letra" : "E", "descricao" : "Minhas Gerais"}
+		]
+	},
+	{
+		"codigo" : 3,
+		"codigoQuestionario" : 1,
+		"questao" : "Qual estado abaixo não faz parte da região nordeste do Brasil?",
+		"pontuacao" : 25,
+		"resposta" : "E",
+		"dica" : "Lembra uma ronda, mas não é idônia.",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Alagoas"},
+			{ "letra" : "B", "descricao" : "Maranhão"},
+			{ "letra" : "C", "descricao" : "Pernambuco"},
+			{ "letra" : "D", "descricao" : "Sergipe"},
+			{ "letra" : "E", "descricao" : "Rondônia"}
+		]
+	},
+	{
+		"codigo" : 4,
+		"codigoQuestionario" : 1,
+		"questao" : "Quantos estados compõe a região centro-oeste do Brasil?",
+		"pontuacao" : 25,
+		"resposta" : "A",
+		"dica" : "Um é pouco, dois é bom, mas...",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "3"},
+			{ "letra" : "B", "descricao" : "2"},
+			{ "letra" : "C", "descricao" : "4"},
+			{ "letra" : "D", "descricao" : "5"},
+			{ "letra" : "E", "descricao" : "1"}
+		]
+	},
+	{
+		"codigo" : 5,
+		"codigoQuestionario" : 1,
+		"questao" : "Qual é o estado mais populoso do Brasil?",
+		"pontuacao" : 25,
+		"resposta" : "C",
+		"dica" : "Não está nas minas nem para lá da selva.",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Amazonas"},
+			{ "letra" : "B", "descricao" : "Pará"},
+			{ "letra" : "C", "descricao" : "São Paulo"},
+			{ "letra" : "D", "descricao" : "Minas Gerais"},
+			{ "letra" : "E", "descricao" : "Maranhão"}
+		]
+	},
+	{
+		"codigo" : 6,
+		"codigoQuestionario" : 1,
+		"questao" : "Qual estado não faz fronteira com o Amazonas?",
+		"pontuacao" : 25,
+		"resposta" : "D",
+		"dica" : "Tocam tintas na fronteira, mas não no Amazonas.",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Acre"},
+			{ "letra" : "B", "descricao" : "Roraima"},
+			{ "letra" : "C", "descricao" : "Pará"},
+			{ "letra" : "D", "descricao" : "Tocantins"},
+			{ "letra" : "E", "descricao" : "Mato Grosso"}
+		]
+	},
+	{
+		"codigo" : 7,
+		"codigoQuestionario" : 1,
+		"questao" : "Quais estados representam o extremo norte e o extremo sul do Brasil?",
+		"pontuacao" : 25,
+		"resposta" : "B",
+		"dica" : "Amiaror é um rapaz que se banha no rio do sul",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Amapá e Santa Catarina"},
+			{ "letra" : "B", "descricao" : "Roraima e Rio Grande do Sul"},
+			{ "letra" : "C", "descricao" : "Amazonas e Rio Grande do Sul"},
+			{ "letra" : "D", "descricao" : "Amapá e Rio Grande do Sul"},
+			{ "letra" : "E", "descricao" : "Pará e Santa Catarina"}
+		]
+	},
+	{
+		"codigo" : 8,
+		"codigoQuestionario" : 1,
+		"questao" : "Qual é o adjetivo pátrio de quem nasce no Amapá?",
+		"pontuacao" : 25,
+		"resposta" : "A",
+		"dica" : "Há mapa em sergipe.",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Amapaense"},
+			{ "letra" : "B", "descricao" : "Amapazoense"},
+			{ "letra" : "C", "descricao" : "Amapaenco"},
+			{ "letra" : "D", "descricao" : "Amapacoense"},
+			{ "letra" : "E", "descricao" : "Amapaco"}
+		]
+	},
+	{
+		"codigo" : 9,
+		"codigoQuestionario" : 1,
+		"questao" : "Suriname faz fronteira com quais estados brasileiros? ",
+		"pontuacao" : 25,
+		"resposta" : "E",
+		"dica" : "Parar e amar a pá.",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Pará e Roraima"},
+			{ "letra" : "B", "descricao" : "Amapá e Maranhão"},
+			{ "letra" : "C", "descricao" : "Amazonas e Pará"},
+			{ "letra" : "D", "descricao" : "Piauí e Roraima"},
+			{ "letra" : "E", "descricao" : "Pará e Amapá"}
+		]
+	},
+	{
+		"codigo" : 10,
+		"codigoQuestionario" : 1,
+		"questao" : "Quem descobriu o Brasil? ",
+		"pontuacao" : 25,
+		"resposta" : "D",
+		"dica" : "A cabra de pedro é alva.",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Dom Pedro II"},
+			{ "letra" : "B", "descricao" : "Vasco da Gama"},
+			{ "letra" : "C", "descricao" : "Flamengo"},
+			{ "letra" : "D", "descricao" : "Pedro Álvares Cabral"},
+			{ "letra" : "E", "descricao" : "Cristovão Colombo"}
+		]
+	},
+	{
+		"codigo" : 1,
+		"codigoQuestionario" : 2,
+		"questao" : "Aplicações web tradicionais processam as informações no servidor e as devolvem formatadas em uma página HTML. As páginas devolvidas podem ser de dois tipos: uma com processamento e outra sem. Quais são os nomes desses tipos?",
+		"pontuacao" : 10,
+		"resposta" : "C",
+		"dica" : "É estática, mas não é performática e nem condensada",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Páginas condensadas e estáticas."},
+			{ "letra" : "B", "descricao" : "Páginas Web Driven e dinâmicas"},
+			{ "letra" : "C", "descricao" : "Páginas estáticas e dinâmicas"},
+			{ "letra" : "D", "descricao" : "Páginas estáticas e performáticas"},
+			{ "letra" : "E", "descricao" : "Páginas dinâmicas e periféricas"}
+		]
+	},
+	{
+		"codigo" : 2,
+		"codigoQuestionario" : 2,
+		"questao" : "Num fluxo normal, sem erros, do relacionamento entre cliente/servidor em uma aplicação web, existe uma troca de informações entre eles. Essa troca se dá de que forma?",
+		"pontuacao" : 10,
+		"resposta" : "B",
+		"dica" : "Existe uma requisição, um processamento e uma resposta.",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "O cliente faz uma solicitação e o servidor não responde."},
+			{ "letra" : "B", "descricao" : "O cliente faz uma requisição de um recurso e o servidor responde com as informações processadas."},
+			{ "letra" : "C", "descricao" : "O servidor faz uma requisição para o cliente e o cliente responde com o processamento de dados."},
+			{ "letra" : "D", "descricao" : "O cliente não faz requisições."},
+			{ "letra" : "E", "descricao" : "O servidor não responde solicitações."}
+		]
+	},
+	{
+		"codigo" : 3,
+		"codigoQuestionario" : 2,
+		"questao" : "Aplicações web tradicionais em MVC geralmente fazem uso de um mecanismo chamado de Template Engine cuja função principal é:",
+		"pontuacao" : 10,
+		"resposta" : "C",
+		"dica" : "Processa e apresenta.",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Criar páginas HTML estáticas."},
+			{ "letra" : "B", "descricao" : "Criar templates HTML de múltiplos usos."},
+			{ "letra" : "C", "descricao" : "Processar as informações requisitadas pelo usuário e apresentá-las em uma página HTML."},
+			{ "letra" : "D", "descricao" : "Recuperar as informações de um banco de dados, processá-las e apresenta-las em uma página HTML."},
+			{ "letra" : "E", "descricao" : "Processar as informações requisitadas pelo usuário e não apresentá-las em uma página HTML."}
+		]
+	},
+	{
+		"codigo" : 4,
+		"codigoQuestionario" : 2,
+		"questao" : "É uma característica de uma aplicação web MVC tradicional:",
+		"pontuacao" : 10,
+		"resposta" : "D",
+		"dica" : "Tudo é feito na mesma aplicação.",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Processamentos de dados no servidor e apresentação em uma aplicação terceira."},
+			{ "letra" : "B", "descricao" : "Oferece apenas dados em formatos como JSON ou XML."},
+			{ "letra" : "C", "descricao" : "Rotas não oferecem páginas HTML na maioria das vezes."},
+			{ "letra" : "D", "descricao" : "Processamentos de dados e da apresentação são feitas pela mesma aplicação."},
+			{ "letra" : "E", "descricao" : "São aplicações que podem ser reaproveitadas de forma muito trivial."}
+		]
+	},
+	{
+		"codigo" : 5,
+		"codigoQuestionario" : 2,
+		"questao" : "É uma característica de uma SPA (Single Page Application):",
+		"pontuacao" : 10,
+		"resposta" : "C",
+		"dica" : "Com certeza roda no navegador.",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "A aplicação é baixada para a máquina do usuário e roda em um container específico do sistema operacional."},
+			{ "letra" : "B", "descricao" : "A aplicação é baixada para a máquina do usuário e roda através de um executável embarcado."},
+			{ "letra" : "C", "descricao" : "A aplicação é baixada e roda localmente através do navegador."},
+			{ "letra" : "D", "descricao" : "A aplicação é baixada e roda remotamente através de um navegador especial projetado especificamente para os protocolos SPA."},
+			{ "letra" : "E", "descricao" : "A aplicação não é baixada e roda localmente através do navegador."}
+		]
+	},
+	{
+		"codigo" : 6,
+		"codigoQuestionario" : 2,
+		"questao" : "Uma SPA é uma aplicação de frontend geralmente escrita em Javascript. Uma de suas funções é:",
+		"pontuacao" : 10,
+		"resposta" : "A",
+		"dica" : "Processa dados vindos de algum lugar.",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Processar a apresentação dos dados vindos de uma aplicação de backend."},
+			{ "letra" : "B", "descricao" : "Processar o backend de uma SPA."},
+			{ "letra" : "C", "descricao" : "Processar validações de segurança da informação."},
+			{ "letra" : "D", "descricao" : "Apresentar uma interface gráfica sem lógica."},
+			{ "letra" : "E", "descricao" : "Criar apenas páginas HTML."}
+		]
+	},
+	{
+		"codigo" : 7,
+		"codigoQuestionario" : 2,
+		"questao" : "Um dos recursos do AngularJS é responsável por ser a ligação entre a lógica contida dentro de um controlador e uma página HTML. Qual é este recurso?",
+		"pontuacao" : 10,
+		"resposta" : "E",
+		"dica" : "És copo, mas não panela.",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Diretiva."},
+			{ "letra" : "B", "descricao" : "Serviço."},
+			{ "letra" : "C", "descricao" : "Controlador."},
+			{ "letra" : "D", "descricao" : "Filtros"},
+			{ "letra" : "E", "descricao" : "Escopo."}
+		]
+	},
+	{
+		"codigo" : 8,
+		"codigoQuestionario" : 2,
+		"questao" : "“Digest Cycle” é um dos principais recursos da engenharia do AngularJS para permitir que a SPA trabalhe de forma dinâmica. Este recurso consiste em:",
+		"pontuacao" : 10,
+		"resposta" : "B",
+		"dica" : "Atualizando os Watchmen",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Um ciclo de atualização de diretivas conectadas a watchers que por sua vez geram escopos.."},
+			{ "letra" : "B", "descricao" : "Um ciclo em laço constante fazendo uma verificação de alterações na árvore de escopos da aplicação através de recursos chamados de watchers."},
+			{ "letra" : "C", "descricao" : "Um ciclo executado uma única vez que verifica todas as alterações do DOM."},
+			{ "letra" : "D", "descricao" : "Um ciclo em laço que cria watchers randômicos que alteram APIs."},
+			{ "letra" : "E", "descricao" : "Uma operação custosa que faz uma varredura das diretivas de escopo isolado e que cria novas instancias da aplicação."}
+		]
+	},
+	{
+		"codigo" : 9,
+		"codigoQuestionario" : 2,
+		"questao" : "Um serviço em AngularJS pode ser usado para algumas finalidades. Uma dessas finalidades consiste em:",
+		"pontuacao" : 10,
+		"resposta" : "C",
+		"dica" : "APIcultura tem métodos de injeção controlados.",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "São usados para manipular as estruturas do DOM."},
+			{ "letra" : "B", "descricao" : "São usados para transformar dados na exibição da página HTML."},
+			{ "letra" : "C", "descricao" : "São usados para mapear requisições a uma API em métodos e são injetados em controladores."},
+			{ "letra" : "D", "descricao" : "São usados para mapear eventos."},
+			{ "letra" : "E", "descricao" : "São usados para criar diretivas."}
+		]
+	},
+	{
+		"codigo" : 10,
+		"codigoQuestionario" : 2,
+		"questao" : "Uma diretiva é um recurso do AngularJS que permite adicionar novos comportamentos para as marcações HTML. As formas de uma diretiva são:",
+		"pontuacao" : 10,
+		"resposta" : "E",
+		"dica" : "Há tributos. Dele mentos, com enários de ClaSSe.",
+		"respondida" : false,
+		"acertou" : false,
+		"opcoes" : [
+			{ "letra" : "A", "descricao" : "Somente na forma de atributo."},
+			{ "letra" : "B", "descricao" : "Atributos e elementos."},
+			{ "letra" : "C", "descricao" : "Atributos, elementos, controladores, serviços e classes CSS."},
+			{ "letra" : "D", "descricao" : "Atributos, escopo, escopo isolado e controladores."},
+			{ "letra" : "E", "descricao" : "Atributos, elementos, comentários e classes CSS."}
+		]
+	}
+]

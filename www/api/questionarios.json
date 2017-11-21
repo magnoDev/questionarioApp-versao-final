@@ -1,0 +1,22 @@
+[
+	{
+		"codigo" : 1,
+		"titulo" : "Geografia do Brasil",
+		"pontuacaoTotal" : 550,
+		"dicaAcionada" : false,
+		"eliminarAcionado" : false,
+		"pularAcionado" : false,
+		"desafioAcionado" : false,
+		"tempo" : 300
+	},
+	{
+		"codigo" : 2,
+		"titulo" : "AngularJS",
+		"pontuacaoTotal" : 100,
+		"dicaAcionada" : false,
+		"eliminarAcionado" : false,
+		"pularAcionado" : false,
+		"desafioAcionado" : false,
+		"tempo" : 900
+	}
+]

@@ -1,0 +1,91 @@
+/* Empty. Add your own CSS if you like */
+
+body, .scroll-content, .menu {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
+background: #a90329; /* Old browsers */
+background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+}
+
+.card, .item {
+    background-color: rgba(255,255,255,0.08);
+}
+
+.item-complex .item-content, .item-radio .item-content, .item {
+	color: #FFF;
+	background: none !important;
+}
+.pontuacao {
+	width: 94px;
+	height: 94px;
+	padding: 37px 20px;
+    margin: 0px auto;
+    background-color: #FFF;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.5);
+}
+.descricao {
+	width: 100%;
+	text-align: center;
+	color: #FFF;
+	padding: 30px 0px 20px 0px;
+}
+.item-text-wrap h2 {
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;
+	font-size: 26px;
+}
+
+.info {
+    width: 70%;
+    margin: 0px auto;
+    background-color: #FFF;
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.5);   
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.txt-vermelho {
+	color: red;
+}
+.txt-verde {
+	color: green;
+}
+.button-light {
+    border-radius: 50px;
+    color: blue !important;
+}
+
+.iniciante {
+    background: #1e5799;
+}
+
+.estudante {
+    background: #d5cea6;
+}
+
+.esforcado {
+    background: #9dd53a;
+} 
+
+.professor {
+    background: #45484d;
+}
+
+.mestre-dos-magos{
+    background: #cc0000;
+}
+
+
+
+
+
+
