@@ -35,7 +35,7 @@ angular.module('questionarioApp', ['ionic'])
                 }
             }
         })
-        
+
         .state('app.questionarios', {
             url: '/questionarios',
             views: {
@@ -45,7 +45,18 @@ angular.module('questionarioApp', ['ionic'])
                     controllerAs : "vm"
                 }
             }
-        })  
+        })
+
+        .state('app.login', {
+          url: '/login',
+          views: {
+              'menuContent': {
+                  templateUrl: 'app/login/login.html',
+                  controller : "LoginController",
+                  controllerAs : "vm"
+              }
+          }
+      })
 
         .state('app.questionario', {
             url: '/questionario/:codigo',
@@ -59,5 +70,5 @@ angular.module('questionarioApp', ['ionic'])
         })
 ;
     // if none of the above states are matched, use this as the fallback
-    $urlRouterProvider.otherwise('/app/questionarios');
+    $urlRouterProvider.otherwise('/app/login');
 });
