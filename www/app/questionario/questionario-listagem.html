@@ -1,9 +1,12 @@
 <ion-view view-title="Questionários">
-    <ion-content>
-        <ion-list>
-            <ion-item ng-repeat="questionario in vm.questionarios track by $index" ui-sref="app.questionario({codigo : questionario.codigo})">
-                {{::questionario.titulo}}
-            </ion-item>
-        </ion-list>
-    </ion-content>
+  <ion-content>
+    <ion-card>
+      <div class="card cardMenu item-borderless" ng-repeat="questionario in vm.questionarios track by $index" ui-sref="app.questionario({codigo : questionario.codigo})">
+        <div class="item cardMenu item-text-wrap">
+          {{::questionario.titulo}}
+        </div>
+      </div>
+    </ion-card>
+  </ion-content>
+  <div></div>
 </ion-view>

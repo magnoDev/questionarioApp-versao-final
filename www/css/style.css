@@ -1,16 +1,26 @@
 /* Empty. Add your own CSS if you like */
 
 body, .scroll-content, .menu {
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
-background: #a90329; /* Old browsers */
-background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#26558b+0,3a8bc2+16,4bb8f0+29,419ad6+41,3a84c3+49,6199c7+50,aac5de+83,cedbe9+100 */
+background: rgb(59,103,158);
+background: -moz-linear-gradient(-45deg, rgba(59,103,158,1) 0%, rgba(43,136,217,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%);
+background: -webkit-linear-gradient(-45deg, rgba(59,103,158,1) 0%,rgba(43,136,217,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+background: linear-gradient(135deg, rgba(59,103,158,1) 0%,rgba(43,136,217,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=1 );
 }
 
 .card, .item {
     background-color: rgba(255,255,255,0.08);
+}
+
+.cardMenu{
+  background-color: rgba(255, 255, 255, 0.74);
+  color: black !important;
+  text-align: center !important;
+  font-size: 20px;
+  border-bottom-left-radius: 30%;
+  border-top-right-radius: 30%;
+  font-family: cursive;
 }
 
 .item-complex .item-content, .item-radio .item-content, .item {
@@ -47,7 +57,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', end
     width: 70%;
     margin: 0px auto;
     background-color: #FFF;
-    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.5);   
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.5);
     border-radius: 30px;
     text-align: center;
     font-weight: bold;
@@ -74,7 +84,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', end
 
 .esforcado {
     background: #9dd53a;
-} 
+}
 
 .professor {
     background: #45484d;
